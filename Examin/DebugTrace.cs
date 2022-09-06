@@ -11,7 +11,7 @@ namespace Examin
     {
         public static void onStart()
         {
-            Trace.Listeners.Add(new TextWriterTraceListener("diagnostic.txt"));
+            Trace.Listeners.Add(new TextWriterTraceListener("diagnostic.txt")); // cоздание файла дял отладки под названием diagnostic
         }
         public static void DebugWrite(string str)
         {
