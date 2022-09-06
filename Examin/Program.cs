@@ -7,6 +7,10 @@ namespace Examin
     {
         static void Main(string[] args)
         {
+            ///<summary>
+            ///Создание файла диагностики при запуске программы
+            /// </summary>
+            DebugTrace.onStart(); 
 
         }
     }
